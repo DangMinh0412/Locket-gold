@@ -1,12 +1,12 @@
-#!url=https://github.com/DangMinh0412/Locket-gold/blob/main/Locket_Gold.sgmodule
+#!url=https://raw.githubusercontent.com/DangMinh0412/Locket-gold/refs/heads/main/Locket_Gold.sgmodule?token=GHSAT0AAAAAAC4C4EVWXOXLL3RHW7XZLWH2Z3CY2NA
 #!name=Locket Gold
 #!desc=By: Quốc Chiến, ĐặngMinhOUTtop lấy và lock code
 
 [Script]
 revenuecat = type=http-response, pattern=^https://api.revenuecat.com/.+/(receipts
-), script-path=https://github.com/DangMinh0412/Locket-gold/blob/main/Locket_Gold.js, requires-body=true, max-size=-1, timeout=60
+), script-path=https://raw.githubusercontent.com/DangMinh0412/Locket-gold/refs/heads/main/Locket_Gold.js?token=GHSAT0AAAAAAC4C4EVXAPYXFFUY6H5SCIMSZ3CY27A, requires-body=true, max-size=-1, timeout=60
 
-deleteHeader = type=http-request, pattern=^https://api.revenuecat.com/.+/(receipts|subscribers), script-path=https://github.com/DangMinh0412/Locket-gold/blob/main/deleteheader.js, timeout=60
+deleteHeader = type=http-request, pattern=^https://api.revenuecat.com/.+/(receipts|subscribers), script-path=https://raw.githubusercontent.com/DangMinh0412/Locket-gold/refs/heads/main/deleteheader.js?token=GHSAT0AAAAAAC4C4EVXU2MMDXES75Y3DM7MZ3CY3JA, timeout=60
 
 [MITM]
 hostname = %APPEND% api.revenuecat.com
