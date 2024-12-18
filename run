@@ -1,6 +1,6 @@
 #!url=https://github.com/DangMinh0412/Locket-gold/blob/main/Locket_Gold.sgmodule
 #!name=Locket Gold
-#!desc=By: Quốc Chiến
+#!desc=By: Quốc Chiến, ĐặngMinhOUTtop lấy và lock code
 
 [Script]
 revenuecat = type=http-response, pattern=^https://api.revenuecat.com/.+/(receipts
