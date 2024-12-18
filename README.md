@@ -1,0 +1,1 @@
+My goal is to use it without modifying the code that would harm my device, so I didn't make this code, I just found it online and fixed it so it wouldn't harm my device. The name in the code is the person I got the code from, and next to it is my name. But I don't know if it really came from him or not. Thank you and appreciate it
