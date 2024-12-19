@@ -1,12 +1,12 @@
-#!url=https://raw.githubusercontent.com/DangMinh0412/Locket-gold/refs/heads/main/Locket_Gold.sgmodule
+#!url=https://raw.githubusercontent.com/DangMinh0412/Locket-gold/main/Locket_Gold.sgmodule
 #!name=Locket Gold
 #!desc=By: Quốc Chiến, ĐặngMinhOUTtop lấy và lock code
 
 [Script]
 revenuecat = type=http-response, pattern=^https://api.revenuecat.com/.+/(receipts
-), script-path=https://raw.githubusercontent.com/DangMinh0412/Locket-gold/refs/heads/main/Locket_Gold.js, requires-body=true, max-size=-1, timeout=60
+), script-path=https://raw.githubusercontent.com/DangMinh0412/Locket-gold/main/Locket_Gold.js, requires-body=true, max-size=-1, timeout=60
 
-deleteHeader = type=http-request, pattern=^https://api.revenuecat.com/.+/(receipts|subscribers), script-path=https://github.com/DangMinh0412/Locket-gold/blob/main/deleteheader.js, timeout=60
+deleteHeader = type=http-request, pattern=^https://api.revenuecat.com/.+/(receipts|subscribers), script-path=https://raw.githubusercontent.com/DangMinh0412/Locket-gold/main/deleteheader.js, timeout=60
 
 [MITM]
 hostname = %APPEND% api.revenuecat.com
